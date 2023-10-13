@@ -24,3 +24,10 @@ Lastly, copy the CSS from this file [here](yuko-chat.css) into the `Custom CSS` 
 ![](readme-imgs/obs2.png)
 
 DONE! :D
+
+
+## Caveats
+
+Unfortunately you need to set the URL for every stream, pro tip, just replace the youtube stream ID (the part after the `&v=`) thats all you need
+
+For member streams you need to log in to your OBS browser first, if you have trouble doing that, delete the CSS out of the properties, then log in and copy it back in? idk yet whats the best solution
