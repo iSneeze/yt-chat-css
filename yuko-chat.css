@@ -9,6 +9,7 @@ iron-pages,
 #separator,
 #fab-container,
 .yt-reaction-control-panel-button-view-model,
+#toast-container,
 #ticker {
   display: none;
 }
@@ -58,6 +59,10 @@ yt-live-chat-text-message-renderer span#author-name {
   border: solid 3px !important;
   min-width: 150px;
   max-height: 34px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 250px;
 }
 yt-live-chat-text-message-renderer span#author-name.member {
   background-color: #2ba640 !important;
@@ -105,11 +110,9 @@ yt-live-chat-membership-item-renderer, ytd-sponsorships-live-chat-gift-purchase-
   margin-top: 10px;
 }
 
-#menu, ytd-sponsorships-live-chat-gift-redemption-announcement-renderer {
+#menu, 
+yt-live-chat-action-panel-renderer,
+#action-panel {
   display: none !important;
-}
-
-a:link {
-  color: cornflowerblue !important;;
 }
 /* Wanau <3 */
