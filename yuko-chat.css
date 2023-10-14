@@ -60,10 +60,10 @@ yt-live-chat-text-message-renderer > yt-img-shadow#author-photo {
 
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name {
   display: inline-block;
-  padding:4px;
+  padding:4px !important;
   color: #e7e7e7 !important;
-  padding-left: 35px;
-  padding-right: 32px;
+  padding-left: 35px !important;
+  padding-right: 32px !important;
   font-size: 1.2em;
   min-width: 90px;
   text-overflow: ellipsis;
