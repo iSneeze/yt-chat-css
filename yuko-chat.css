@@ -65,7 +65,7 @@ yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name {
   padding-left: 35px !important;
   padding-right: 32px !important;
   font-size: 1.2em;
-  min-width: 90px;
+  min-width: 80px !important;
   text-overflow: ellipsis;
   overflow: hidden;
   background-color: #41464d !important;
@@ -118,6 +118,7 @@ yt-live-chat-text-message-renderer span#message {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎃</text></svg>") !important;
 }
 #menu, 
+#timestamp,
 yt-live-chat-action-panel-renderer,
 ytd-sponsorships-live-chat-gift-redemption-announcement-renderer,
 #action-panel {
