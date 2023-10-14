@@ -121,6 +121,7 @@ yt-live-chat-text-message-renderer span#message {
 }
 #menu, 
 yt-live-chat-action-panel-renderer,
+ytd-sponsorships-live-chat-gift-redemption-announcement-renderer,
 #action-panel {
   display: none !important;
 }
