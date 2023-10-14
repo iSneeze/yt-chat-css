@@ -34,8 +34,6 @@ yt-live-chat-text-message-renderer {
   background-color: rgba(0, 0, 0, 0.0) !important;
   overflow: hidden;
   margin: -5px 0px 5px 0px !important;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 yt-live-chat-text-message-renderer > #content {
