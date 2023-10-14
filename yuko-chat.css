@@ -54,7 +54,6 @@ yt-live-chat-text-message-renderer yt-live-chat-author-chip {
 yt-live-chat-text-message-renderer > yt-img-shadow#author-photo {
   z-index: 9;
   position: absolute;
-  float: top left;
   transform: translate(5px, 14px);
 }
 
@@ -104,6 +103,7 @@ yt-live-chat-text-message-renderer span#message {
   display: block;
   background: #e7e7e7 !important;
   color: #41464d !important;
+  line-height: 1.2em !important;
   font-size: 1.2em;
   font-weight: 500;
   padding: 18px 5px 8px 15px !important;
@@ -117,6 +117,11 @@ yt-live-chat-text-message-renderer span#message {
   /* exchange emoji below for "theming"? 🎃❄️🌸☀️ */
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎃</text></svg>") !important;
 }
+
+a:link{
+  color: cornflowerblue;
+}
+
 #menu, 
 #timestamp,
 yt-live-chat-action-panel-renderer,
