@@ -1,11 +1,12 @@
 :root {
   /* to change backgrounds, text color etc, change the hex values here! */
-  --chat-message-color: #41464d;
+  --chat-message-text-color: #41464d;
+  --chat-message-background-color: #e7e7e7;
   --chat-author-viewer-background-color: #41464d;
   --chat-author-member-background-color: #2ba640;
   --chat-author-moderator-background-color: #5e84f1;
   --chat-author-owner-background-color: #ffd600;
-  --chat-author-owner-color: #41464d;
+  --chat-author-owner-text-color: #41464d;
   /* exchange emoji below for "theming"? 🎃❄️🌸☀️ alternatively, provide your own img url, like this: url(https://placekitten.com/g/32/32) */
   --chat-background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎃</text></svg>");
 }
@@ -108,13 +109,13 @@ yt-live-chat-author-badge-renderer[type="moderator"]{
 
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name.owner {
   background-color: var(--chat-author-owner-background-color) !important;
-  color: var(--chat-author-owner-color) !important;
+  color: var(--chat-author-owner-text-color) !important;
 }
 
 yt-live-chat-text-message-renderer span#message {
   display: block;
-  background: #e7e7e7 !important;
-  color: #41464d !important;
+  background: var(--chat-message-background-color) !important;
+  color: var(--chat-message-text-color) !important;
   line-height: 1.2em !important;
   font-size: 1.2em;
   font-weight: 500;
