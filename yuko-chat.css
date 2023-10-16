@@ -1,3 +1,15 @@
+:root {
+  /* to change backgrounds, text color etc, change the hex values here! */
+  --chat-message-color: #41464d;
+  --chat-author-viewer-background-color: #41464d;
+  --chat-author-member-background-color: #2ba640;
+  --chat-author-moderator-background-color: #5e84f1;
+  --chat-author-owner-background-color: #ffd600;
+  --chat-author-owner-color: #41464d;
+  /* exchange emoji below for "theming"? 🎃❄️🌸☀️ alternatively, provide your own img url, like this: url(https://placekitten.com/g/32/32) */
+  --chat-background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎃</text></svg>");
+}
+
 /* Hide everything unnecessary */
 #input-panel,
 yt-live-chat-viewer-engagement-message-renderer,
@@ -59,7 +71,7 @@ yt-live-chat-text-message-renderer > yt-img-shadow#author-photo {
 
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name {
   display: inline-block;
-  padding:4px !important;
+  padding: 4px !important;
   color: #e7e7e7 !important;
   padding-left: 35px !important;
   padding-right: 32px !important;
@@ -83,11 +95,11 @@ yt-live-chat-text-message-renderer yt-live-chat-author-chip span#chat-badges{
   z-index: 10;
 }
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name.member {
-  background-color: #2ba640 !important;
+  background-color: var(--chat-author-member-background-color) !important;
 }
 
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name.moderator {
-  background-color: #5e84f1 !important;
+  background-color: var(--chat-author-moderator-background-color) !important;
 }
 
 yt-live-chat-author-badge-renderer[type="moderator"]{
@@ -95,8 +107,8 @@ yt-live-chat-author-badge-renderer[type="moderator"]{
 }
 
 yt-live-chat-text-message-renderer yt-live-chat-author-chip span#author-name.owner {
-  background-color: #ffd600 !important;
-  color: #41464d !important;
+  background-color: var(--chat-author-owner-background-color) !important;
+  color: var(--chat-author-owner-color) !important;
 }
 
 yt-live-chat-text-message-renderer span#message {
@@ -114,8 +126,7 @@ yt-live-chat-text-message-renderer span#message {
   text-align: center left !important;
   background-repeat: no-repeat !important;
   background-position: calc(100% + 7px) calc(100% + 17px) !important;
-  /* exchange emoji below for "theming"? 🎃❄️🌸☀️ */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎃</text></svg>") !important;
+  background-image: var(--chat-background-image) !important;
 }
 
 a:link{
