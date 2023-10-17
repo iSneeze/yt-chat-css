@@ -136,7 +136,7 @@ yt-live-chat-text-message-renderer span#message::after {
   background-size: 100% !important;
   background-image: var(--chat-background-image) !important;
   transform: rotate(20deg) !important;
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
   z-index: -1 !important;
 }
 

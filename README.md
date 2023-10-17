@@ -17,7 +17,7 @@ Open your stream in your browser, click on the chat popout button and copy the U
 
 In OBS, when creating the browser source, paste the youtube chat URL for the `URL`.
 
-Set `Width` to something like 360 to 400. `Height` your choice, something like 720 looks nice.
+Set `Width` to something like 400. `Height` your choice.
 
 Lastly, copy the CSS from this file [here](yuko-chat.css) into the `Custom CSS` field, delete the default text first.
 
