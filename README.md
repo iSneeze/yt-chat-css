@@ -27,7 +27,7 @@ DONE! :D
 
 # Customization
 
-You can customize the colors yourself in the first paragraph! :D Even change the emote in the background, or provide your own image url.
+You can customize the colors yourself in the first paragraph!
 
 ```css
 :root {
