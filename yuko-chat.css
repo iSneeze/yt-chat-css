@@ -128,7 +128,7 @@ yt-live-chat-text-message-renderer span#message {
 yt-live-chat-text-message-renderer span#message::after {
   all: unset !important;
   position: absolute !important;
-  top: -16px !important;
+  top: -22px !important;
   right: 10px !important;
   content: "" !important;
   height: 48px !important;
