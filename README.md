@@ -19,19 +19,22 @@ In OBS, when creating the browser source, paste the youtube chat URL for the `UR
 
 **NEW!!!** When working with the lucky charms on Fuyo's chat we discovered a method to re-direct automatically to the next livechat! Might not work for members if holodex doesn't detect it:
 
-https://clovercharms.github.io/holodex-chat-redirect/?apiKey=9273b048-c2a4-4cbc-a6ab-bcc18a036fa9&channelId=UCcIcMRVpNqWQn4WnDhRASAw 
+(Yuko Chat URL) https://clovercharms.github.io/holodex-chat-redirect/?apiKey=9273b048-c2a4-4cbc-a6ab-bcc18a036fa9&channelId=UCcIcMRVpNqWQn4WnDhRASAw 
+
+(Pochi Chat URL) https://clovercharms.github.io/holodex-chat-redirect/?apiKey=9273b048-c2a4-4cbc-a6ab-bcc18a036fa9&channelId=UCP0csSl19lOSNwJGCFsJqAQ
+
 
 If this doesn't work, please resort to copying the livechat url from step 2.
 
-Set `Width` to something like 400. `Height` your choice.
+Set `Width` to something like 400. `Height` your choice. (Pochi, please set this to 500!)
 
-Lastly, copy the CSS from this file [here](yuko-chat.css) into the `Custom CSS` field, delete the default text first.
+Lastly, copy the CSS from this file here [Yuko](yuko-chat.css) [Pochi](pochi-chat.css) into the `Custom CSS` field, delete the default text first.
 
 ![](readme-imgs/obs2.png)
 
 ## Enabling Chat for member streams
 
-In order to enable chat for memeber streams you need to log into your youtube account. The easiest way to do this:
+In order to enable chat for member streams you need to log into your youtube account. The easiest way to do this:
 
 1. Create a new browser source with the url `youtube.com`
 2. Click on `interact` while having the new browser source selected.
