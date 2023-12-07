@@ -26,7 +26,9 @@ In OBS, when creating the browser source, paste the youtube chat URL for the `UR
 
 If this doesn't work, please resort to copying the livechat url from step 2.
 
-Set `Width` to something like 400.(**Pochi**, please set this to **500**!) `Height` your choice. 
+Set `Width` to something like 400.(**Pochi**, please set this to **500**! That's the size your chat works best) 
+
+`Height` is your choice. 
 
 Lastly, copy the CSS from this file here [Yuko](yuko-chat.css) [Pochi](pochi-chat.css) into the `Custom CSS` field, delete the default text first.
 
