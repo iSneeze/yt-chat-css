@@ -71,7 +71,7 @@ yt-live-chat-text-message-renderer {
   max-height: 600px;
   background-color: rgba(0, 0, 0, 0.0) !important;
   overflow: hidden;
-  margin: -10px 0px !important;
+  margin: -10px 0px -7px 0px !important;
 }
 
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer img {
